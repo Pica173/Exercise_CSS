@@ -1,0 +1,47 @@
+.flex{
+  display: flex;
+  justify-content: space-between;
+  color: navy;
+  font-weight: bold;
+  margin: 20px 30px 100px;
+}
+
+h1{
+  font-size: 25px;
+}
+
+ul{
+  list-style-type: none;
+}
+
+li{
+  display: inline;
+  margin-left: 20px;
+}
+
+.relative{
+  position: relative;
+}
+
+.relative__img{
+  margin: 0 0 0 auto;
+  display: block;
+  width: 50%;
+  position: relative;
+  z-index: 10;
+}
+
+.absolute__Darkblue-box{
+  position: absolute;
+  top: 80%;
+  background: navy;
+  width: 80%;
+  height: 40%;
+}
+
+.absolute__Darkblue-box::before{
+  display: block;
+  margin-top: -50px;
+  content: "毎日を笑顔に";
+  font-size: 50px;
+}
